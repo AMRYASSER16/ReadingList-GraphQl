@@ -30,6 +30,8 @@ const AddBook = () => {
                 ))}
             </select>
         </div>
+
+        <button>+</button>
     </form>;
 };
 
