@@ -4,7 +4,7 @@ import query from '../queries/fetchBooks';
 
 const BookList = () => {
 	const [ booksList, setBooksList ] = useState([ { title: 'Loading...', id: '000000' } ]);
-	const { loading, error, data } = useQuery(query);
+	const { loading, data } = useQuery(query);
 
 	useEffect(
 		() => {
@@ -12,7 +12,7 @@ const BookList = () => {
 				setBooksList(data.books);
 			}
 		},
-		[data]
+		[data, loading]
 	);
 
 	return (
