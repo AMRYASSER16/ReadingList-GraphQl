@@ -1,9 +1,12 @@
 {
+  "homepage": "http://AMRYASSER16.github.io/ReadingList-GraphQl",
   "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,5 +18,8 @@
     "graphql": "^16.5.0",
     "lodash": "^4.17.21",
     "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
