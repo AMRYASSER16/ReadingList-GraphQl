@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReadingList-GraphQl/static/css/main.7fe1bb02.css",
+    "main.js": "/ReadingList-GraphQl/static/js/main.67e3f0ec.js",
+    "index.html": "/ReadingList-GraphQl/index.html",
+    "main.7fe1bb02.css.map": "/ReadingList-GraphQl/static/css/main.7fe1bb02.css.map",
+    "main.67e3f0ec.js.map": "/ReadingList-GraphQl/static/js/main.67e3f0ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fe1bb02.css",
+    "static/js/main.67e3f0ec.js"
+  ]
+}
