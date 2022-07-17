@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ReadingList-GraphQl/client/static/css/main.7fe1bb02.css",
-    "main.js": "/ReadingList-GraphQl/client/static/js/main.67e3f0ec.js",
-    "index.html": "/ReadingList-GraphQl/client/index.html",
-    "main.7fe1bb02.css.map": "/ReadingList-GraphQl/client/static/css/main.7fe1bb02.css.map",
-    "main.67e3f0ec.js.map": "/ReadingList-GraphQl/client/static/js/main.67e3f0ec.js.map"
+    "main.css": "/ReadingList-GraphQl/static/css/main.7fe1bb02.css",
+    "main.js": "/ReadingList-GraphQl/static/js/main.ffa9354e.js",
+    "index.html": "/ReadingList-GraphQl/index.html",
+    "main.7fe1bb02.css.map": "/ReadingList-GraphQl/static/css/main.7fe1bb02.css.map",
+    "main.ffa9354e.js.map": "/ReadingList-GraphQl/static/js/main.ffa9354e.js.map"
   },
   "entrypoints": [
     "static/css/main.7fe1bb02.css",
-    "static/js/main.67e3f0ec.js"
+    "static/js/main.ffa9354e.js"
   ]
 }
