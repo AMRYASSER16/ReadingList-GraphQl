@@ -20,7 +20,7 @@ const BookList = () => {
 	return (
 		<div>
 			<ul id="book-list">{booksList.map(({ id, name }) => <li onClick={() => setBookId(id)} key={id}>{name}</li>)}</ul>
-			{bookId ? <BookDetails bookId={bookId} /> : <div>No book selected...</div>}
+			<BookDetails bookId={bookId} />
 		</div>
 	);
 };

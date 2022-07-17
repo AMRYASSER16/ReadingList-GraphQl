@@ -6,26 +6,34 @@ const BookDetails = ({ bookId }) => {
 	const [ book, setBook ] = useState([ { title: 'Loading...', id: '000000' } ]);
 	const { loading, data } = useQuery(query, {
 		variables: { id: bookId }
-    });
-    
+	});
+
+	
+
 	useEffect(
 		() => {
 			if (loading === false) {
-				setBook(data.book);
+				setBook(data);
 			}
 		},
-		[data, loading]
+		[ data ]
 	);
 
 	return (
-		<div id='book-details'>
-			<h2>Book Detail</h2>
-			<ul>
-				<li>{book.name}</li>
-				<li>{book.genre}</li>
-				<li>{book.author.name}</li>
-				{book.author.books.map((b) => <span key={b.id}>{b.name}</span>)}
-			</ul>
+		<div id="book-details">
+			<h2>Book Details</h2>
+
+			{/* {data ? (
+				<ul>
+					<li>{book.name}</li>
+					<li>{book.genre}</li>
+					<li>{book.author.name}</li>
+					{book.author.books.map((b) => <span key={b.id}>{b.name}</span>)}
+				</ul>
+			) : ( */}
+				<div>No book selected...</div>
+			{/* )} */}
+
 		</div>
 	);
 };
